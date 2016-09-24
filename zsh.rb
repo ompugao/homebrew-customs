@@ -8,9 +8,9 @@ class Zsh < Formula
   sha256 '8079cf08cb8beff22f84b56bd72bb6e6962ff4718d816f3d83a633b4c9e17d23'
 
   bottle do
-    sha1 "83d646649569ade648db6a44c480709d63268a25" => :yosemite
-    sha1 "935990ced3a6d3a3027bac4b32ac8f031e8fa244" => :mavericks
-    sha1 "c6e8055106d0b939cec5674469099bfd63d53f9e" => :mountain_lion
+    sha256 "83d646649569ade648db6a44c480709d63268a25" => :yosemite
+    sha256 "935990ced3a6d3a3027bac4b32ac8f031e8fa244" => :mavericks
+    sha256 "c6e8055106d0b939cec5674469099bfd63d53f9e" => :mountain_lion
   end
 
   def pour_bottle?

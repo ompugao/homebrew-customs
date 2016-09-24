@@ -4,7 +4,7 @@ class UnzipIconv < Formula
   homepage 'http://www.info-zip.org/pub/infozip/UnZip.html'
   url 'https://downloads.sourceforge.net/project/infozip/UnZip%206.x%20%28latest%29/UnZip%206.0/unzip60.tar.gz'
   version '6.0'
-  sha1 'abf7de8a4018a983590ed6f5cbd990d4740f8a22'
+  sha256 'abf7de8a4018a983590ed6f5cbd990d4740f8a22'
 
   patch do
     url "https://aur.archlinux.org/packages/un/unzip-iconv/unzip-iconv.tar.gz"
